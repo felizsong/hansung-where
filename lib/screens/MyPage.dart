@@ -7,7 +7,6 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'NotificationPage.dart';
 import 'MyPostPage.dart';
 import 'MyCommentPage.dart';
-import 'NotiSettingPage.dart';
 import 'NoticePage.dart';
 
 class MyPage extends StatefulWidget {
@@ -354,26 +353,17 @@ class _MyPageState extends State<MyPage> {
               ),
             ),
             const SizedBox(height: 10),
-            RoundThreeItems(
-              icon1: 'assets/icons/ic_notice.png',
-              icon2: 'assets/icons/ic_annosetting.png',
-              icon3: 'assets/icons/ic_logout.png',
-              onTap1: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => NoticePage()),
-                );
-              },
-              onTap2: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => NotiSetting()),
-                );
-              },
-              onTap3: () async {
-                await logout(); // 로그아웃 수행
-              },
-            ),
+          RoundTwoItems(icon1: 'assets/icons/ic_notice.png', icon2: 'assets/icons/ic_logout.png',
+            onTap1:  () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => NoticePage()),
+            );
+          },
+            onTap2: () async {
+              await logout(); // 로그아웃 수행
+            },
+          ),
           ],
         ),
       ),

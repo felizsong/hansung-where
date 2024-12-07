@@ -5,8 +5,6 @@ import '../DbConn.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'NotificationPage.dart';
-import 'MyPostPage.dart';
-import 'MyCommentPage.dart';
 import 'NoticePage.dart';
 import 'ReportPage.dart';
 

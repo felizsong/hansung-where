@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'theme/colors.dart';
 import 'NoticePost.dart';
 import 'DbConn.dart';
 import 'package:hansung_where/screens/NoticePostPage.dart';

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:io';
 import 'package:flutter/services.dart';
-import 'package:hansung_where/screens/NotificationPage.dart';
 import 'package:hansung_where/theme/colors.dart';
 import 'mainPages/ChatPage.dart';
 import 'mainPages/HomePage.dart';
@@ -12,8 +11,6 @@ import 'LoginPage.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'local_push_notification.dart';
-import 'message_page.dart';
-import 'package:hansung_where/DbConn.dart';
 import 'dart:async';
 
 final navagatorKey = GlobalKey<NavigatorState>();

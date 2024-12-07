@@ -1,12 +1,10 @@
 import 'package:mysql_client/mysql_client.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'Post.dart'; // Post 모델 임포트
 import 'Comment.dart';
 import 'NoticePost.dart'; // Post 모델 임포트
 import 'Report.dart';
 import 'Message.dart';
-import 'local_push_notification.dart';
 
 class DbConn {
   static MySQLConnection? _connection;

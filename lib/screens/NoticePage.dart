@@ -2,7 +2,6 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import '../local_push_notification.dart';
-import '../theme/colors.dart';
 import 'WriteNoticePage.dart';
 import '/NoticePost.dart';
 import '/NoticePostCard.dart';

@@ -1,10 +1,7 @@
 import 'dart:async';
 import 'dart:io';
 import 'package:timezone/data/latest_all.dart' as tz;
-import 'package:timezone/timezone.dart' as tz;
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
-
-import 'main.dart';
 
 class LocalPushNotifications {
   //플러그인 인스턴스 생성
